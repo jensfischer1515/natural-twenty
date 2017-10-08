@@ -1,4 +1,4 @@
-package org.openended.pfcc
+package org.openended.pfcoca
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
