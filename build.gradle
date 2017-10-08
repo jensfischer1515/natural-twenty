@@ -44,6 +44,11 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
     compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
+
+    runtime('org.webjars:webjars-locator')
+    runtime('org.webjars:bootstrap:3.3.7-1')
+    runtime('org.webjars:jquery:3.2.0')
     runtime('org.springframework.boot:spring-boot-devtools')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
