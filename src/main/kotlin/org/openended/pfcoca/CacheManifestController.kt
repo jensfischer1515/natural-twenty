@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.ResponseBody
 
 @Controller
-class CacheManifestController {
+class CacheManifestController(val cacheBuster: CacheBuster) {
 
     @ResponseBody
     @GetMapping("/cache.manifest", produces = arrayOf("text/cache-manifest"))
     fun cacheManifest(): String = """
         CACHE MANIFEST
-        # Cache manifest version 0.0.1
+        # Cache manifest version $cacheBuster
 
         CACHE:
         /favicon.ico
@@ -32,6 +32,9 @@ class CacheManifestController {
         /webjars/bootstrap/js/bootstrap.min.js
         /webjars/jquery/jquery.min.js
         /webjars/jquery/jquery.min.map
+        /webjars/axios/dist/axios.min.js
+        /webjars/axios/dist/axios.min.map
+        /webjars/vue/vue.min.js
         /css/style.css
 
         NETWORK:

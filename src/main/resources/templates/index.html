@@ -5,11 +5,18 @@
 
 <div th:replace="fragments/layout :: top"></div>
 
-<div class="text-center">
+<div id="app" class="text-center">
     <h1>Pathfinder Combat Calculator</h1>
 </div>
 
 <div th:replace="fragments/layout :: footer"></div>
 
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {}
+
+    });
+</script>
 </body>
 </html>

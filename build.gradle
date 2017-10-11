@@ -48,6 +48,10 @@ dependencies {
     runtime('org.webjars:webjars-locator')
     runtime('org.webjars:bootstrap:3.3.7-1')
     runtime('org.webjars:jquery:3.2.0')
+    runtime('org.webjars.npm:axios:0.16.1')
+    runtime('org.webjars:vue:2.4.2')
+    //runtime('org.webjars.npm:bootstrap-vue:0.15.0')
+    runtime('org.webjars:bootstrap-vue:0.9.5')
     runtime('org.springframework.boot:spring-boot-devtools')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
