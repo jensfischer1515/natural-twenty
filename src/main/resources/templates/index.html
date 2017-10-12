@@ -6,17 +6,20 @@
 <div th:replace="fragments/layout :: top"></div>
 
 <div id="app" class="text-center">
-    <h1>Pathfinder Combat Calculator</h1>
+    <h1>{{ title }}</h1>
 </div>
 
 <div th:replace="fragments/layout :: footer"></div>
 
 <script>
-    var app = new Vue({
+    new Vue({
         el: "#app",
-        data: {}
-
+        data: {
+            title: 'Pathfinder Combat Calculator'
+        }
     });
+
 </script>
 </body>
 </html>
+

@@ -9,7 +9,7 @@ class CacheManifestController(val cacheBuster: CacheBuster) {
 
     @ResponseBody
     @GetMapping("/cache.manifest", produces = arrayOf("text/cache-manifest"))
-    fun cacheManifest(): String = """
+    fun cacheManifest() = """
         CACHE MANIFEST
         # Cache manifest version $cacheBuster
 
@@ -34,7 +34,7 @@ class CacheManifestController(val cacheBuster: CacheBuster) {
         /webjars/jquery/jquery.min.map
         /webjars/axios/dist/axios.min.js
         /webjars/axios/dist/axios.min.map
-        /webjars/vue/vue.min.js
+        /webjars/vue/vue.js
         /css/style.css
 
         NETWORK:

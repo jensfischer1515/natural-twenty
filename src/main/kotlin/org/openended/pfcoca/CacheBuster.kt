@@ -1,7 +1,9 @@
 package org.openended.pfcoca
 
-data class CacheBuster(val id: String) {
-    override fun toString(): String {
-        return id
-    }
+import org.springframework.beans.factory.annotation.Value
+import org.springframework.stereotype.Component
+
+@Component
+data class CacheBuster(@Value("\${random.uuid}") val id: String) {
+    override fun toString() = id
 }

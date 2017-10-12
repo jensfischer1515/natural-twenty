@@ -14,9 +14,16 @@ class PlayerCharacterRepository {
                 Ability(name = WIS, score = 12),
                 Ability(name = CHA, score = 7)
         )
+
         val feats = arrayListOf(
                 Feat(name = "Weapon Focus")
         )
-        return PlayerCharacter(id = id, name = "Tarkonn", abilities = abilities, feats = feats)
+
+        return PlayerCharacter(
+                id = id,
+                name = "Tarkonn",
+                abilities = abilities,
+                feats = feats
+        )
     }
 }

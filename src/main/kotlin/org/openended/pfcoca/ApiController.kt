@@ -10,7 +10,5 @@ import org.springframework.web.bind.annotation.RestController
 class ApiController(val playerCharacterRepository: PlayerCharacterRepository) {
 
     @GetMapping("/player-characters/{id}")
-    fun getPlayerCharacter(@PathVariable id: String): PlayerCharacter {
-        return playerCharacterRepository.findById(id = id)
-    }
+    fun getPlayerCharacter(@PathVariable id: String) = playerCharacterRepository.findById(id = id)
 }
