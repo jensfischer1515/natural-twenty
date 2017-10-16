@@ -36,6 +36,8 @@ class CacheManifestController(val cacheBuster: CacheBuster) {
         /webjars/axios/dist/axios.min.map
         /webjars/vue/vue.js
         /css/style.css
+        /js/app.js
+        /js/PlayerCharacter.js
 
         NETWORK:
         /api/*

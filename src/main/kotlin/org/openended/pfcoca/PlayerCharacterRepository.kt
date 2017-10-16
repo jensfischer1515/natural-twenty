@@ -16,7 +16,11 @@ class PlayerCharacterRepository {
         )
 
         val feats = arrayListOf(
-                Feat(name = "Weapon Focus")
+                Feat(name = "Weapon Focus"),
+                Feat(name = "Power Attack"),
+                Feat(name = "Furious Focus"),
+                Feat(name = "Combat Expertise"),
+                Feat(name = "Shield of Swings")
         )
 
         return PlayerCharacter(

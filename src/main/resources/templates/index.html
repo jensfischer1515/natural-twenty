@@ -6,36 +6,15 @@
 <div th:replace="fragments/layout :: top"></div>
 
 <div id="app" class="text-center">
-    <h1>{{ title }}</h1>
-
-    <div class="btn-group-vertical" data-toggle="buttons">
-        <label class="btn btn-default active">
-            <input type="checkbox" autocomplete="off" checked> Power Attack
-        </label>
-        <label class="btn btn-default">
-            <input type="checkbox" autocomplete="off"> Furious Focus
-        </label>
-        <label class="btn btn-default">
-            <input type="checkbox" autocomplete="off"> Shield of Swings
-        </label>
-        <label class="btn btn-default">
-            <input type="checkbox" autocomplete="off"> Combat Expertise
-        </label>
-    </div>
+    <player-character/>
 </div>
 
 <div th:replace="fragments/layout :: footer"></div>
 
-<script src="/webjars/axios/dist/axios.min.js"></script>
-<script src="/webjars/vue/vue.js"></script>
-<script>
-    new Vue({
-        el: "#app",
-        data: {
-            title: 'Pathfinder Combat Calculator'
-        }
-    });
+<script type="module" src="/js/PlayerCharacter.js"></script>
+<script type="module" src="/js/app.js"></script>
+<script nomodule>
+    document.getElementById("app").innerHTML = "Your browser doesn't support JavaScript modules :(";
 </script>
 </body>
 </html>
-
