@@ -25,6 +25,7 @@ class CacheManifestController(val cacheBuster: CacheBuster) {
         /img/apple-touch-icon-152x152.png
         /img/apple-touch-icon-180x180.png
         #/img/apple-touch-icon-120x120-precomposed.png
+        /img/cdcfac637a8b774b9a60b696bcdb8a86.jpg
         /webjars/bootstrap/css/bootstrap.min.css
         /webjars/bootstrap/css/bootstrap.min.css.map
         /webjars/bootstrap/css/bootstrap-theme.min.css
