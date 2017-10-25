@@ -1,4 +1,4 @@
-package org.openended.pfcoca
+package org.openended.naturaltwenty
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

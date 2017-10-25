@@ -1,4 +1,4 @@
-package org.openended.pfcoca
+package org.openended.naturaltwenty
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

@@ -1,8 +1,12 @@
-# Pathfinder Combat Calculator
+# Natural Twenty: a Pathfinder Combat Calculator
 
 Scratching my own itch:
 the need for an offline calculator for my Pathfinder combats, 
 plus the desire to try out modern technologies like Kotlin.
+
+## Deployment
+
+https://natural-twenty.herokuapp.com/
 
 ## Links
 
@@ -15,3 +19,4 @@ plus the desire to try out modern technologies like Kotlin.
 ### Manage app cache on Chrome
 
 [chrome://appcache-internals/#](chrome://appcache-internals/#)
+

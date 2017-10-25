@@ -1,4 +1,4 @@
-package org.openended.pfcoca
+package org.openended.naturaltwenty
 
 enum class Abilities(val description: String) {
     STR("Strength"),

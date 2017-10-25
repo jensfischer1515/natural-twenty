@@ -1,6 +1,6 @@
-package org.openended.pfcoca
+package org.openended.naturaltwenty
 
-import org.openended.pfcoca.Abilities.*
+import org.openended.naturaltwenty.Abilities.*
 import org.springframework.stereotype.Repository
 
 @Repository

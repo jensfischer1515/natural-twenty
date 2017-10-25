@@ -11,3 +11,36 @@ footer {
     color: #777777;
     font-style: italic;
 }
+
+
+
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('/img/cdcfac637a8b774b9a60b696bcdb8a86.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}

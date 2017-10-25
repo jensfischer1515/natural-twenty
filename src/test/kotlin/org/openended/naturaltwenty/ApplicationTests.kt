@@ -1,4 +1,4 @@
-package org.openended.pfcoca
+package org.openended.naturaltwenty
 
 import org.junit.Test
 import org.junit.runner.RunWith
